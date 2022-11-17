@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://65.2.146.253:9000/</sonar.host.url>
+		<sonar.host.url>172.31.43.195:9000/</sonar.host.url>
                 <sonar.login>squ_f453588e6b20080055e92958faff98a4ebd5d189</sonar.login>
 	
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.126.182.228:8919/asadunnisasadiya/repository/asadscl-release/</url>
+	      <url>172.31.35.233:8919/asadunnisasadiya/repository/asadscl-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.126.182.228:8919/asadunnisasadiya/repository/asadscl-snapshot/</url>
+	      <url>172.31.35.233:8919/asadunnisasadiya/repository/asadscl-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
